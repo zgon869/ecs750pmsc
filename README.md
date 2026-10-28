@@ -25,13 +25,21 @@ Technologies used
 - Git and Github
 
 Repository Structure
+
 ecs750pmsc/
+
 -01_generate_designs.py
+
 -02_run_simulations.py
+
 -config.py
+
 -cst_utils.py
+
 -dataset_utils.py
+
 -README.md
+
 -.gitignore
 
 The python files operate as such:
