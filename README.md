@@ -1,6 +1,7 @@
 CST Microstrip Patch Antenna Simulation Automation 
 
 Overview
+
 This project automates the generation and simulation of parameterised rectangular microstrip patch 
 antenna designs using CST Studio Suite and Python. 
 
@@ -142,5 +143,6 @@ Limitations
 additional validation.
 
 Reproducibility
+
 A fixed random seed is confgured to help reproduce parameter sampling. Reproducing the complete dataset also requires compatible
 CST settings, matching project geometry and parameter definitions and consistent simulation configurations. 
