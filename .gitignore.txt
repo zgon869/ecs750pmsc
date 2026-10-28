@@ -1,0 +1,20 @@
+# Virtual environments
+.venv/
+venv/
+
+# Generated datasets
+output_dataset.csv
+parameter_samples.csv
+MASTER_DATASET_FILE.csv
+
+# Simulation logs and temporary exports
+simulation_log.txt
+export_file1.txt
+
+# CST project and generated simulation files
+*.cst
+*.bak
+*.log
+
+# Local configuration containing machine specific paths
+config.local.py
