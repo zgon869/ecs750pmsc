@@ -79,6 +79,7 @@ Setup
 1. clone the repository
 
   git clone https://github.com/zgon869/ecs750pmsc.git
+  
   cd ecs750pmsc
 
 2. Prepare the CST project
@@ -103,12 +104,14 @@ and file paths are appropriate for your intended simulations.
 Run the scripts in the intended order:
 
   Step 1: Generate Antenna Designs
+  
   python 01_generate_designs.py
 
   This generates parameter combinations for the antenna designs and saves them to the configured parameter file. The sampling
   process applies the geometry-validity constraints implemented in the script. 
 
   Step 2: Run CST simulations and generate the dataset
+  
   python 02_run_simulations.py
 
   This script is called on in the CST Python API through the command "run (file path)\02_run_simulations.py " . This 
